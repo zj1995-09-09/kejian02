@@ -1,0 +1,15 @@
+#注释，key后面的：必须加空格分开key value
+host: "http://yuz.com"
+prot: "7788"
+
+#数据库
+db:
+  host: "http://db.com"
+  port: "3306"
+
+
+users:
+  - username: "yuz"
+    password: "123456"
+  - username: "xiaohu"
+    password: "6666"

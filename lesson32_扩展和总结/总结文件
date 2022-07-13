@@ -1,0 +1,6 @@
+
+sign
+1，先获取token 前 50位
+2. str(int(timestamp))
+3. token_50 + ts
+4. sign = rsa(token_50 + ts)
