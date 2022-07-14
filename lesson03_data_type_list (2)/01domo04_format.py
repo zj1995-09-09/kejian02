@@ -10,8 +10,5 @@ ticket ='''
 今收到{}
 交来的{}
 人民币{}
-
 '''.format(name,money,money_chinese)
 print(ticket)
-print(name +str(100))
-ddd
