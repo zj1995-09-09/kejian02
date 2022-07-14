@@ -14,3 +14,5 @@ ticket ='''
 '''.format(name,money,money_chinese)
 print(ticket)
 print(name +str(100))
+
+hhh
