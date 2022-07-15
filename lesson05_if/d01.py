@@ -5,4 +5,5 @@ movies["name"]
 movies["name"] = "new value"
 # 添加
 movies["new_name"] = "new value"
+print(movies)
 # pop

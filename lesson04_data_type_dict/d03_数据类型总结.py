@@ -27,8 +27,8 @@ print(b[0])
 #
 # b[1] = False  # No
 
-# b[0][0] = True # Yes
-# print(b)
+b[0][0] = True # Yes
+print(b)
 
 # b[1][0] = False
 # print(b)

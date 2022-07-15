@@ -5,7 +5,7 @@
 movies = {"favor": "画皮"}
 # 添加元素， insert
 movies["new_key"] = "大话西游"
-print(movies)
+# print(movies)
 
 # 删除
 # movies.pop("favor")
