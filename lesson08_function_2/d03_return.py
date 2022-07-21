@@ -19,7 +19,7 @@ def add(a, b):
 
 b = add(3,4)
 # TODO: 没有 print ，就不会出现在品目上。
-# print(b)
+print(b)
 
 c = add(1,1)
 print(c)

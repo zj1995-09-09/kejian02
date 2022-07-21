@@ -3,7 +3,7 @@ def add(a, b):
     c = a + b
     d = c * a
     e = d * b
-    # return d
+    return e
 
 # add(3, 4) # ==> 调用函数得到的是函数的返回值
 
