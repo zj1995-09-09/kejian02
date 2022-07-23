@@ -23,28 +23,28 @@
 # a = lesson10_模块和路径.d01_open.add(3,4)
 # print(a)
 
-from lesson10_模块和路径 import d01_open
-a = d01_open.add(3,4)
-print(a)
-
-def add(a, b):
-    return a - b
+# from lesson10_模块和路径 import d01_open
+# a = d01_open.add(3,4)
+# print(a)
+#
+# def add(a, b):
+#     return a - b
 
 # 直接倒入函数
 from lesson10_模块和路径.d01_open import add as module_add
-b = add(3,4)
-print(b)
+# b = add(3,4)
+# print(b)
 
 # 在一个文件当中，如果出现同名的函数，之前的那个会被覆盖掉。
 # 当倒入的标识符出现同名，一定要把其中的一个取别名，以免混淆
-c = add(3,4)
-print(c)
+# c = add(3,4)
+# print(c)
+#
+# d = module_add(3,4)
+# print(d)
 
-d = module_add(3,4)
-print(d)
 
-
-print(d01_open.add(3,4))
+# print(d01_open.add(3,4))
 
 
 # 最后，倒入所有
@@ -59,10 +59,11 @@ print(d01_open.add(3,4))
 # from ... import * ，强烈建议不要用。
 
 
-# from time import time
+from time import time
 # time()
 #
-# import time
-# time.time()
+import time
+time.time()
+
 
 
