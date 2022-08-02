@@ -12,14 +12,28 @@ class MyLogger(logging.Logger):
                  file_handler_level='INFO',
                  fmt_str='time:%(asctime)s--%(levelname)s:%(name)s:%(message)s--%(filename)s--%(lineno)s'
                  ):
+        # 获取日志收集器logger
 
-    # 获取日志收集器
-    logger
-    super().__init__(name, logger_level)
-    # self == 收集器
-    # self.setLevel(logger_level)
+        super().__init__(name, logger_level)
+        # self == 收集器
+        # self.setLevel(logger_level)
 
-    fmt = logging.Formatter(fmt_str)
+        fmt = logging.Formatter(fmt_str)
 
-    # 日志处理器
-    handler =logging.Str
+        # 日志处理器
+        handler = logging.StreamHandler()
+        handler.setLevel(stream_handler_level)
+        handler.setFormatter(fmt)
+        self.addHandler(handler)
+
+        if file:
+            file_handler = logging.FileHandler(file, encoding='utf-8')
+            file_handler.setLevel(file_handler_level)
+            file_handler.setFormatter(fmt)
+            self.addHandler(file_handler)
+if __name__ == '__main__':
+    logger = MyLogger(file='python36.log')
+    logger.error('今天是周三')
+
+print(__file__)
+print(__name__)

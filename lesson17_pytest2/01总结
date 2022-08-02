@@ -1,0 +1,47 @@
+-s
+显示打印信息
+
+测试用例
+不需要return
+不要自己去调用 test
+函数参数不要随意加
+
+右击运行
+往最后空白行顶格运行
+
+ddt 数据驱动测试
+ddt data -driven testing
+
+数据和测试逻辑分开
+测试用例的独立性
+
+参数
+参数化
+
+夹具
+pytest.fixture()声明夹具
+把夹具的函数名作为参数传到测试用例当中
+
+夹具作用域
+当把作用定义成函数，每个用例函数或者方法都会执行一次
+类 整个类不管多少个用例 只会执行一次
+
+#function
+class
+module
+package
+session
+
+
+auto use
+自动使用不需要一个个传参数
+
+conftest.py
+共享夹具 fixture
+放在项目根目录
+
+allure
+pip install allure-pytest
+pytest --alluredir=目录路径
+allure serve 目录路径
+

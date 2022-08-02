@@ -1,15 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.pytest_cache/v" />
+      <excludeFolder url="file://$MODULE_DIR$/a/.pytest_cache/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/a/.pytest_cache/v" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson16_pytest/.pytest_cache/v" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson17_pytest2/.pytest_cache/v" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson21_api_v1/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson21_api_v1/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson22_api_v2/reports/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson22_api_v2/tests/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson22_api_v2/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson22_api_v2/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson24_api_v3/reports/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson24_api_v3/tests/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson24_api_v3/上课代码/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson24_api_v3/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson24_api_v3/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson25_api_v4/reports/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson25_api_v4/tests/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson25_api_v4/上课代码/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson25_api_v4/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson25_api_v4/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson25_api_v4/data" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson26_api_v5/reports/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson26_api_v5/tests/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson26_api_v5/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson26_api_v5/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson26_api_v5/data" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson27_api_v6/reports/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson27_api_v6/tests/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson27_api_v6/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson27_api_v6/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson27_api_v6/data" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson28_api_v7/reports/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson28_api_v7/tests/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson28_api_v7/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson28_api_v7/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson28_api_v7/data" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson29_api_v8（Token未拼接，待优化）/reports/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson29_api_v8（Token未拼接，待优化）/tests/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson29_api_v8（Token未拼接，待优化）/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson29_api_v8（Token未拼接，待优化）/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson29_api_v8（Token未拼接，待优化）/data" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson32_扩展和总结/.pytest_cache/v" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PackageRequirementsSettings">
+    <option name="requirementsPath" value="" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="format" value="PLAIN" />
     <option name="myDocStringFormat" value="Plain" />
-  </component>
-  <component name="TestRunnerService">
-    <option name="PROJECT_TEST_RUNNER" value="py.test" />
   </component>
 </module>

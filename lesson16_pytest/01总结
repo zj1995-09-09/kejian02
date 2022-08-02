@@ -1,0 +1,31 @@
+unittest:内置单元测试框架 和安装的python 兼容
+pytest ：公司主流，功能极其强大
+nose:
+
+pip install pytest
+
+测试用例编写
+-模块是以test_*.py
+*_test.py
+
+函数 test_
+如果写在类下面，类Test
+
+收集用例：
+    注意：一定要在制定目录下运行pytest
+
+运行某个模块下的用例
+pytest 模块名.py
+右点击-- run pytest in test_login
+
+#测试报告
+pip install pytest-html
+pytest --html=路径\报告名称.html
+1000种左右
+
+实现了测试用例的灵活筛选和管理
+标记功能：mark
+
+1、在用例上加上@pytest.mark.标签名称
+2、pytest -m '标签名'运行标签的用例
+3、pytest 的配置文件当中注册smoke
